@@ -7,7 +7,8 @@ Software architecture &amp; design pattern
 
 ###Ch01- Adapter pattern
 * Class diagram
-- 상속
-<img src="/images/Adapter_상속.png" width="410" height="200">
-- 위임
-<img src="/images/Adapter_위임.png" width="410" height="200">
+1) 상속
+<img src="/images/Adapter 상속.png" width="410" height="200">
+
+1) 위임
+<img src="/images/Adapter 위임.png" width="410" height="200">
