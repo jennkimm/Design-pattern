@@ -1,0 +1,42 @@
+[33mcommit f5471174c53eb0f5e46c44f0f022a7b21fb8d505[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: de34fa2 2266941
+Author: smartshk <smartshk98@gmail.com>
+Date:   Sun Sep 22 15:05:36 2019 +0900
+
+    Merge branch 'master' of https://github.com/smartshk/Design-pattern
+
+[33mcommit de34fa29acf643d7effa11d220222d66d5482962[m
+Author: smartshk <smartshk98@gmail.com>
+Date:   Sun Sep 22 15:04:20 2019 +0900
+
+    add ch-02 - Adapter pattern
+
+[33mcommit 2266941467de24ddae654c097f5015f36852f51d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Seohyun Kim <47231931+smartshk@users.noreply.github.com>
+Date:   Sun Sep 22 03:11:26 2019 +0900
+
+    Update README.md
+
+[33mcommit 297e77126281252f1ee1644d91c1a1b2c913fc63[m
+Author: Seohyun Kim <47231931+smartshk@users.noreply.github.com>
+Date:   Sun Sep 22 03:10:14 2019 +0900
+
+    Update README.md
+
+[33mcommit 235380c091fe3baa7397e7299d68a360a22757e6[m
+Author: smartshk <smartshk98@gmail.com>
+Date:   Sun Sep 22 03:08:37 2019 +0900
+
+    add image directory for uml
+
+[33mcommit 70759ea02f70fea7969bfb76cab417d9522715ca[m
+Author: Seohyun Kim <47231931+smartshk@users.noreply.github.com>
+Date:   Sun Sep 22 03:04:08 2019 +0900
+
+    Create README.md
+
+[33mcommit 6d2a53bc5f56da0bca5d3b0f56654964b6be9e18[m
+Author: smartshk <smartshk98@gmail.com>
+Date:   Sun Sep 22 02:50:02 2019 +0900
+
+    add ch01 - Iterator pattern

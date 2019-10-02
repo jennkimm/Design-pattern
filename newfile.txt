@@ -1,0 +1,7 @@
+#written by FileProperties
+#Sun Sep 22 14:58:49 KST 2019
+Name=Seohyun Kim
+StudentId=20171046
+bornYear=1998
+Location=Seoul
+Year=2019
