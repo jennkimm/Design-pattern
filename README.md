@@ -15,3 +15,6 @@ Software architecture &amp; design pattern
 
 ### Ch03 - TemplateMethod pattern
 <img src="/images/TemplateMethod.png" width="410" height="200">
+
+### Ch04 - FactoryMethod pattern
+<img src="/images/FactoryMethod.png" width="410" height="200">
