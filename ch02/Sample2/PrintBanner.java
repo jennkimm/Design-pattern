@@ -16,5 +16,5 @@ public class PrintBanner extends Print {
 	    // banner의 showWithAster()을 호출한다.
         // PrintBanner 자신이 일을 처리하지 않고, banner에게 위임한다.
 		banner.showWithAster();
-    }
+    } 
 }

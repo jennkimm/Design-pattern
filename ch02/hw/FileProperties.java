@@ -6,7 +6,8 @@ import java.util.*;
 
 // Properties 클래스는, 이미 존재하는 클래스이다.
 // FileProperties 클래스가 어댑터 역할을 한다.
-public class FileProperties extends Properties implements FileIO {
+public class FileProperties extends FileIO {
+	
 	private Properties properties=new Properties(); //properties 객체 생성
 	
 	//properties 의 load 메소드 호출
