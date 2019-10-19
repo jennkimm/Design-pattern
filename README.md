@@ -27,3 +27,8 @@ Software architecture &amp; design pattern
 * 주의할 점: 다중스레드 환경에서 다른 스레드가 cpu를 할당받고 getInstance 메소드를 호출하여 singleton == null을 비교하는 경우, 아직 singleton 변수에 Singleton객체가 할당되어있지 않으므로 비교결과 참이되어 Singleton 객체 또 생성하려고 하므로, synchronized 키워드 붙여줘야함 
 <img src="/images/Singleton.png" width="410" height="300">
 
+### CH10 - Strategy pattern
+- 알고리즘/전략/작전/책략 등을 동적으로 교체할 수 있는 패턴. player가 전략(strategy class)을 갖고있어, 다음 수를 어떻게 둘지 역할을 위임한다.
+- 프로그램 동작 중에 전략 교체를 할 수 있다.
+<image src="/images/StrategyPattern.png" width="410" height="200"> 
+
