@@ -36,3 +36,8 @@ Software architecture &amp; design pattern
 - 단일 객체든 객체들의 집합이든 같은 방법으로 취급하는 패턴. 내용물들을 트리구조로 구성. 
 - ex) 파일과 디렉토리. 
 <image src="/images/Composite.png" width="410" height="200">
+
+### Ch16 - Mediator pattern
+- 모든 클래스간의 복잡한 로직을 캡슐화하여 하나의 래스에(Mediator)위임하여 처리
+- 그러나.. 실습을 자바 스윙으로 했는데, Colleague 들이 구현해야하는 여러가지 이벤트리스너들이 있을 때, 각 메소드를 다른컴포넌트에서 다르게 구현하고 싶을 때는 이 패턴을 지키지 못하는 것 같다.(?)
+<image src="/images/Mediator.png" width="500" height="600">
