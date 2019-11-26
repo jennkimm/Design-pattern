@@ -41,3 +41,8 @@ Software architecture &amp; design pattern
 - 모든 클래스간의 복잡한 로직을 캡슐화하여 하나의 래스에(Mediator)위임하여 처리
 - 그러나.. 실습을 자바 스윙으로 했는데, Colleague 들이 구현해야하는 여러가지 이벤트리스너들이 있을 때, 각 메소드를 다른컴포넌트에서 다르게 구현하고 싶을 때는 이 패턴을 지키지 못하는 것 같다.(?)
 <image src="/images/Mediator.png" width="600" height="600">
+
+### CH17 - Observer pattern
+- 관찰대상과 관찰자가 다대일의 의존관계가 되어, 관찰대상의 상태가 변하면, 관찰자에게 통지되어, 객체의 상태변화에 따른 처리를 기술할 때 유용하게 사용된다.
+- 관찰자와 관찰 대상을 논리적으로 분리함으로써, 각각을 쉽게 교체할 수 있다. =>확장성/교환가능성 높아짐.
+<image src="/images/Observer.png" width="600" height="600">
