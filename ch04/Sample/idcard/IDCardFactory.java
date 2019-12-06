@@ -18,9 +18,15 @@ public class IDCardFactory extends Factory {
         // product 를 IDCard로 형변환해야, getOwner()를 호출할 수 있다.
 		owners.add(((IDCard)product).getOwner());
     }
+<<<<<<< HEAD
     
     public Vector getOwners() {
         return owners;
     }
     
+=======
+    public Vector getOwners() {
+        return owners;
+    }
+>>>>>>> 84c953f
 }
