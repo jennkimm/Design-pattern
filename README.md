@@ -42,7 +42,17 @@ Software architecture &amp; design pattern
 - 그러나.. 실습을 자바 스윙으로 했는데, Colleague 들이 구현해야하는 여러가지 이벤트리스너들이 있을 때, 각 메소드를 다른컴포넌트에서 다르게 구현하고 싶을 때는 이 패턴을 지키지 못하는 것 같다.(?)
 <image src="/images/Mediator.png" width="600" height="600">
 
-### CH17 - Observer pattern
+### Ch17 - Observer pattern
 - 관찰대상과 관찰자가 다대일의 의존관계가 되어, 관찰대상의 상태가 변하면, 관찰자에게 통지되어, 객체의 상태변화에 따른 처리를 기술할 때 유용하게 사용된다.
 - 관찰자와 관찰 대상을 논리적으로 분리함으로써, 각각을 쉽게 교체할 수 있다. =>확장성/교환가능성 높아짐.
 <image src="/images/Observer.png" width="600" height="600">
+
+### Ch20 - Flyweight pattern
+- 인스턴스를 가능한 한 공유시켜, 메모리를 절약한다. 이미 만들어져있는 인스턴스를 또 생성하지 않고, 재사용한다.
+<image src="/images/Flyweight.png" width="410" height="500">
+
+### Ch22 - Command pattern
+- 클래스(객체)가 일을 처리할 때는, 자신의 클래스(객체)나 다른 클래스(객체)의 메소드를 호출한다. 실행하고자 하는 일이 메소드 호출이 아닌, 명령을 나타내는 클래스의 인스턴스 생성으로 표현된다.
+- 이는 명령의 history 를 관리하고 싶을 때, 명령의 집합을 보존해서 재사용 할수도 있고, 여러 개의 명령을 모아서 새로운 클래스로 두면, 재사용 가능하다. 
+<image src="/images/Command.png" width="600" height="600">
+
